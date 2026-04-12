@@ -6,7 +6,7 @@ int  main() {
     const double Euler = 2.71828182;  // Euler
 
     printf("PI = %f\n", PI);
-    printf("Euler = %e", Euler);
+    printf("Euler = %le", Euler);
   
 
    
