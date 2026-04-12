@@ -7,7 +7,7 @@ int main () {
     int ni;  // número de idiomas
     ni = 7100;
     long long int pm;  // população mundial
-    pp = 8274065924;
+    pm = 8274065924;
     double pa;  // proporção Áurea
     pa = 1.61803398874989484820;
 
