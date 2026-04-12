@@ -3,10 +3,10 @@
 
 int  main() {
 
-    const double Euler = 2.71828182;  // Euler
+    const double EULER = 2.71828182;  // Euler
 
     printf("PI = %f\n", PI);
-    printf("Euler = %le", Euler);
+    printf("Euler = %le", EULER);
   
 
 
