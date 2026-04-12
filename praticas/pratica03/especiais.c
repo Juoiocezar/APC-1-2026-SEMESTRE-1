@@ -15,5 +15,6 @@ int main () {
     printf("numero de idiomas: %i\n", ni);
     printf("populacao mundial: %lld\n", pm);    
     printf("proporcao aurea: %.18f\n", pa);
+    
        return 0;
 }

@@ -9,7 +9,6 @@ int  main() {
     printf("Euler = %le", Euler);
   
 
-   
 
     return 0;
 }
