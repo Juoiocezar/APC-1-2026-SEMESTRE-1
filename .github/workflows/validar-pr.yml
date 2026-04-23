@@ -23,7 +23,7 @@ jobs:
 
           for folder in $FOLDERS; do
             echo "Validando arquivos na pasta $folder..."
-            
+
             while IFS= read -r -d '' file; do
               echo "Compilando $file..."
               gcc "$file" -o "${file%.c}.out" -lm
