@@ -17,17 +17,14 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y gcc
 
-      - name: Validar arquivos de código por pasta
+            - name: Validar arquivos de código por pasta
         run: |
           FOLDERS=$(find ./praticas -mindepth 1 -maxdepth 1 -type d)
 
           for folder in $FOLDERS; do
             echo "Validando arquivos na pasta $folder..."
 
-            find "$folder" -name "*.c" -print0 | while IFS= read -rd '' file; do
-
             while IFS= read -r -d '' file; do
-
               echo "Compilando $file..."
               gcc "$file" -o "${file%.c}.out" -lm
               
