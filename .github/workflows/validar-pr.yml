@@ -24,7 +24,14 @@ jobs:
           for folder in $FOLDERS; do
             echo "Validando arquivos na pasta $folder..."
 
+
             while IFS= read -r -d '' file; do
+
+            find "$folder" -name "*.c" -print0 | while IFS= read -rd '' file; do
+
+            while IFS= read -r -d '' file; do
+
+
               echo "Compilando $file..."
               gcc "$file" -o "${file%.c}.out" -lm
               
