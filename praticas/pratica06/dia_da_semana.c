@@ -17,9 +17,10 @@ scanf("%i", &ds);
 if(ds == 1 || ds == 7) {
 printf("seu dia eh um final de semana");
 }
-if(ds || 2 && ds || 3 && ds || 4 && ds || 5 && ds || 5) {
+else if(ds == 2 && ds == 3 && ds == 4 && ds == 5 && ds == 6) {
     printf("seu dia eh util");
 }
+
 
     return 0;
 }
