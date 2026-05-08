@@ -15,12 +15,11 @@ printf("      7-Sabado\n");
 scanf("%i", &ds);
 
 if(ds == 1 || ds == 7) {
-printf("seu dia eh um final de semana");
+printf("seu dia eh um final de semana\n");
 }
-else if(ds == 2 && ds == 3 && ds == 4 && ds == 5 && ds == 6) {
-    printf("seu dia eh util");
+if(ds == 2 || ds == 3 || ds == 4 || ds == 5 || ds == 5) {
+    printf("seu dia eh util\n");
 }
-
 
     return 0;
 }
